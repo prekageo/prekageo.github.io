@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>George Prekas: software development engineer at Amazon Web Services</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="My name is George Prekas. I am a software development engineer at Amazon Web Services in Austin, TX since 2018. I received my PhD in 2018 from EPFL in Switzerland where I was advised by Prof. Edouard Bugnion.">
+<link rel="icon" href="data:;base64,iVBORw0KGgo=">
+</head>
+<body>
+<div id="main">
+<h1 id="name">George Prekas</h1>
+<div id="header">
+<div id="photo">
+<img alt="George Prekas" src="picture.jpg" width="200" height="200">
+</div>
+<div id="header-text">
+I am a software development engineer at Amazon Web Services in Austin, TX since 2018.
+<br>
+<br>
+I received my PhD in 2018 from <a href="https://www.epfl.ch">EPFL</a> in Switzerland where I was advised by <a href="https://people.epfl.ch/edouard.bugnion?lang=en">Prof. Edouard Bugnion</a> and funded by a <a href="https://ai.googleblog.com/2015/06/announcing-2015-google-european.html">Google PhD Fellowship</a> since 2015. My thesis is titled "<a href="https://infoscience.epfl.ch/record/255404/">Bridging the gap between dataplane OS and commodity OS</a>". During my PhD, I did an internship at Microsoft Research in Redmond, WA in 2015 and at VMware in Palo Alto, CA in 2016. I received my M.Sc. in Electrical and Computer Engineering from the <a href="https://www.ntua.gr/en/">National Technical University of Athens</a> in 2010.
+<br>
+<br>
+<a href="mailto:prekgeo@gmail.com">Email</a> /
+<a href="https://scholar.google.com/citations?user=-MZEqpthpwEC">Google Scholar</a> /
+<a href="https://www.linkedin.com/in/george-prekas/">LinkedIn</a> /
+<a href="https://github.com/prekageo">GitHub</a> /
+<a href="https://shiftlock.wordpress.com">Blog</a>
+</div>
+</div>
+<h2>Interests</h2>
+<p>I am interested in virtualization, operating systems, and networking. My academic contributions include:</p>
+<ul>
+<li>Improving datacenter performance, application latency, and energy efficiency.</li>
+<li>Optimizing the behavior of microsecond-scale tasks through enhancements of the underlying operating system and virtualization infrastructure.</li>
+</ul>
+<p>In general, I enjoy building and understanding complex computer systems.</p>
+<h2>Projects</h2>
+<h3>ZygOS</h3>
+<p>I have designed and implemented a new dataplane operating system named <a href="https://github.com/ix-project/zygos">ZygOS</a>, which features a work-conserving scheduler for microsecond-scale networked tasks.</p>
+<p><a href="https://github.com/ix-project/zygos">ZygOS</a> is a system optimized for microsecond-scale, in-memory computing on multicore servers. It implements a work-conserving scheduler within a specialized operating system designed for high request rates and a large number of network connections. ZygOS uses a combination of shared-memory data structures, multi-queue NICs, and inter-processor interrupts to rebalance work across cores.</p>
+<h3>IX</h3>
+<p>I have designed and implemented the energy management subsystem of the dataplane operating system <a href="https://github.com/ix-project/ix">IX</a>.</p>
+<p><a href="https://github.com/ix-project/ix">IX</a> is a dataplane operating system that provides high I/O performance and high resource efficiency while maintaining the protection and isolation benefits of existing kernels. IX uses hardware virtualization to separate management and scheduling functions of the kernel (control plane) from network processing (dataplane).</p>
+<h3>Dune</h3>
+<p>While working on IX and ZygOS, I have contributed multiple features to the kernel module <a href="https://github.com/ix-project/dune">Dune</a>, which is a special purpose virtualization hypervisor.</p>
+<h2>Awards</h2>
+<ul>
+<li>
+<a href="https://ai.googleblog.com/2015/06/announcing-2015-google-european.html">Google European Doctoral Fellowship in Operating Systems</a> (2015)
+</li>
+<li>
+<a href="https://www.usenix.org/conferences/best-papers?taxonomy_vocabulary_1_tid=2014&title_1=osdi">OSDI '14 Jay Lepreau Best Paper Award</a>
+</li>
+</ul>
+<h2>Publications</h2>
+<ul class="publications">
+<li>
+<b>[ATC]</b>
+R2P2: Making RPCs first-class datacenter citizens<br>
+Marios Kogias, <b>George Prekas</b>, Adrien Ghosn, Jonas Fietz, and Edouard Bugnion<br>
+To appear in the 2019 USENIX Annual Technical Conference. USENIX ATC, 2019
+</li>
+<li>
+<b>[SOSP]</b>
+<a href="https://infoscience.epfl.ch/record/231395/files/sosp17-final278.pdf">ZygOS: Achieving low tail latency for microsecond-scale networked tasks<i class="pdf"></i></a><a href="https://dl.acm.org/citation.cfm?id=3132780"><i class="link"></i></a><br>
+<b>George Prekas</b>, Marios Kogias, and Edouard Bugnion<br>
+In Proceedings of the 26th ACM Symposium on Operating Systems Principles. SOSP, 2017
+</li>
+<li>
+<b>[TOCS]</b>
+<a href="https://infoscience.epfl.ch/record/223617/files/tocs16-ix.pdf">The IX operating system: Combining low latency, high throughput, and efficiency in a protected dataplane<i class="pdf"></i></a><a href="https://dl.acm.org/citation.cfm?id=2997641"><i class="link"></i></a><br>
+Adam Belay, <b>George Prekas</b>, Mia Primorac, Ana Klimovic, Samuel Grossman, Christos Kozyrakis, and Edouard Bugnion<br>
+ACM Transactions on Computer Systems (TOCS), 34(4):11, 2016
+</li>
+<li>
+<b>[OSDI]</b>
+<a href="https://www.usenix.org/system/files/conference/osdi16/osdi16-zhang-yunqi.pdf">History-based harvesting of spare cycles and storage in large-scale datacenters<i class="pdf"></i></a><a href="https://dl.acm.org/citation.cfm?id=3026935"><i class="link"></i></a><br>
+Yunqi Zhang, <b>George Prekas</b>, Giovanni Matteo Fumarola, Marcus Fontoura, Inigo Goiri, and Ricardo Bianchini<br>
+In Proceedings of the 12th USENIX conference on Operating Systems Design and Implementation. OSDI, 2016
+</li>
+<li>
+<b>[SOCC]</b>
+<a href="https://infoscience.epfl.ch/record/210138/files/ix-energy-socc15.pdf">Energy proportionality and workload consolidation for latency-critical applications<i class="pdf"></i></a><a href="https://dl.acm.org/citation.cfm?id=2806848"><i class="link"></i></a><br>
+<b>George Prekas</b>, Mia Primorac, Adam Belay, Christos Kozyrakis, and Edouard Bugnion.<br>
+In Proceedings of the Sixth ACM Symposium on Cloud Computing, pages 342–355. SOCC, 2015
+</li>
+<li>
+<b>[OSDI]</b>
+<a href="https://infoscience.epfl.ch/record/201671/files/osdi14-ix.pdf">IX: A protected dataplane operating system for high throughput and low latency<i class="pdf"></i></a><a href="https://dl.acm.org/citation.cfm?id=2685053"><i class="link"></i></a><br>
+Adam Belay, <b>George Prekas</b>, Ana Klimovic, Samuel Grossman, Christos Kozyrakis, and Edouard Bugnion<br>
+In Proceedings of the 11th USENIX Symposium on Operating System Design and Implementation (OSDI). OSDI, 2014
+</li>
+<li>
+<a href="http://accelconf.web.cern.ch/accelconf/ipac2011/papers/wepc121.pdf">XML Constructs for Developing Dynamics Applications or Towards a Universal Representation of Particle Accelerators in XML<i class="pdf"></i></a><br>
+J Chrin, L Hubert, R Krempaska, <b>G Prekas</b>, and T Pelaia<br>
+Proceedings of IPAC2011, San Sebastián, Spain
+</li>
+<li>
+<a href="https://accelconf.web.cern.ch/accelconf/icalepcs2009/papers/thp078.pdf">A Taste of CAFE<i class="pdf"></i></a><br>
+J Chrin and <b>G Prekas</b><br>
+Proceedings of ICALEPCS2009, Kobe, Japan
+</li>
+<li>
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2808909/pdf/gkp888.pdf">miRGen 2.0: a database of microRNA genomic information and regulation<i class="pdf"></i></a><a href="https://www.ncbi.nlm.nih.gov/pubmed/19850714"><i class="link"></i></a><br>
+Panagiotis Alexiou, Thanasis Vergoulis, Martin Gleditzsch, <b>George Prekas</b>, Theodore Dalamagas, Molly Megraw, Ivo Grosse, Timos Sellis, and Artemis G Hatzigeorgiou<br>
+Nucleic acids research, 38(suppl 1):D137–D141, 2009
+</li>
+<li>
+<a href="https://pdfs.semanticscholar.org/c7cf/fd3af6e268214b2f089902126e006a6db270.pdf">Performance of laboratory experiments over the internet: Towards an intelligent tutoring system on automatic control<i class="pdf"></i></a><br>
+Kleanthis Prekas, Maria Rangoussi, Savvas Vassiliadis, and <b>George Prekas</b><br>
+Int. J. Inf. Commun. Eng, 1(4):208–211, 2005
+</li>
+</ul>
+<h2>Patents</h2>
+<ul class="publications">
+<li>
+<a href="https://patents.google.com/patent/US20170374144">Harvesting spare storage in a data center</a><br>
+Ricardo Bianchini, Inigo Goiri Presa, Marcus Felipe Fontoura, <b>Georgios Prekas</b><br>
+US Patent 20,170,374,144, 2016
+</li>
+</ul>
+</div>
+<style>
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+#main {
+    max-width: 800px;
+    margin: auto;
+    text-justify: inter-character;
+    text-align: justify;
+}
+@media only screen and (max-width: 500px) {
+    #name, #photo {
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 500px) {
+    #header {
+        display: flex;
+    }
+    #name {
+        padding-left: 210px;
+    }
+    #photo img {
+        margin-right: 10px;
+    }
+}
+#photo img {
+    border-radius: 50%;
+}
+.publications {
+    padding: 0;
+    list-style: none;
+    text-align: left;
+}
+.publications li {
+    margin-bottom: 1.5em;
+}
+.pdf {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAwFBMVEUAAAAfHx8mJiZBQUFzc3aAgIOKio2LAQOqqqyrAgWwsLCysrKysri2tra8vLy8vMPCwsLDw8vFxcXHx8fNzc3R0dHTZWnU1NTYtrnY2NjZGh7ZUVHa2trb29vc3Nzd3d7f39/h4eHii4zjXV7k5OTlRkfldXXmAQTn5+fn7fHppqfp6enqvL7r2Nrs7OztU1Pv4uXv8PLw///y8vL19fX8Awf8/Pz+NDf/DRH/Fxv/JSj/PkD/Rkn/VFf/Z2n/eXxgoJ69AAAAAXRSTlMAQObYZgAAAMJJREFUGBkFwd1OAjEQgNFv2mn3LwqJgYiJiTyJ73/jOxgvlKiBXXSlbNvxHAEeT9XEQHbLKx5QJ95Ryv3HzWrUZzPDMrx9bnnfPSnJmxWYjsaWw17NG8BEdS+IjPLwDQCw/6o5FAHutEifnU+5dpMD6H2/QW+HVoIpgA+r1IcI16Y6AA0x6WWOTfA4gNinTtpl1NiiACGcOh/bv0PtUIBytmb5zUUvPyjA7IexlCWTZxSwdb02JUF2zgRYnw0AMDf8A5jKVJr3xyEyAAAAAElFTkSuQmCC)
+}
+.link {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAMFBMVEX///9wcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHAnFTKsAAAAD3RSTlMAESIzRFVmd4iZqrvM3e5GKvWZAAAAWUlEQVQIW2NgQAZWJyA0+++5l8AM3gSG6zDJUyCCeaYCyxUQI/bMY74FQJrxJoPhWQEgQ/bADKmHIJl1AnlvDUCMqwwMAmCdjxnkAsCMvSV3ICKc7zcwYAUAjz0WbHRhn40AAAAASUVORK5CYII=)
+}
+</style>
+</body>
+</html>
