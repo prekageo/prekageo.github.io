@@ -6,6 +6,57 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="My name is George Prekas. I am a software development engineer at Amazon Web Services in Austin, TX since 2018. I received my PhD in 2018 from EPFL in Switzerland where I was advised by Prof. Edouard Bugnion.">
 <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+<style>
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+#main {
+    max-width: 800px;
+    margin: auto;
+    text-justify: inter-character;
+    text-align: justify;
+}
+@media only screen and (max-width: 500px) {
+    #name, #photo {
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 500px) {
+    #header {
+        display: flex;
+    }
+    #name {
+        padding-left: 210px;
+    }
+    #photo img {
+        margin-right: 10px;
+    }
+}
+#photo img {
+    border-radius: 50%;
+}
+.publications {
+    padding: 0;
+    list-style: none;
+    text-align: left;
+}
+.publications li {
+    margin-bottom: 1.5em;
+}
+.pdf {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAwFBMVEUAAAAfHx8mJiZBQUFzc3aAgIOKio2LAQOqqqyrAgWwsLCysrKysri2tra8vLy8vMPCwsLDw8vFxcXHx8fNzc3R0dHTZWnU1NTYtrnY2NjZGh7ZUVHa2trb29vc3Nzd3d7f39/h4eHii4zjXV7k5OTlRkfldXXmAQTn5+fn7fHppqfp6enqvL7r2Nrs7OztU1Pv4uXv8PLw///y8vL19fX8Awf8/Pz+NDf/DRH/Fxv/JSj/PkD/Rkn/VFf/Z2n/eXxgoJ69AAAAAXRSTlMAQObYZgAAAMJJREFUGBkFwd1OAjEQgNFv2mn3LwqJgYiJiTyJ73/jOxgvlKiBXXSlbNvxHAEeT9XEQHbLKx5QJ95Ryv3HzWrUZzPDMrx9bnnfPSnJmxWYjsaWw17NG8BEdS+IjPLwDQCw/6o5FAHutEifnU+5dpMD6H2/QW+HVoIpgA+r1IcI16Y6AA0x6WWOTfA4gNinTtpl1NiiACGcOh/bv0PtUIBytmb5zUUvPyjA7IexlCWTZxSwdb02JUF2zgRYnw0AMDf8A5jKVJr3xyEyAAAAAElFTkSuQmCC)
+}
+.link {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAMFBMVEX///9wcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHAnFTKsAAAAD3RSTlMAESIzRFVmd4iZqrvM3e5GKvWZAAAAWUlEQVQIW2NgQAZWJyA0+++5l8AM3gSG6zDJUyCCeaYCyxUQI/bMY74FQJrxJoPhWQEgQ/bADKmHIJl1AnlvDUCMqwwMAmCdjxnkAsCMvSV3ICKc7zcwYAUAjz0WbHRhn40AAAAASUVORK5CYII=)
+}
+</style>
 </head>
 <body>
 <div id="main">
@@ -121,56 +172,5 @@ US Patent 20,170,374,144, 2016
 </li>
 </ul>
 </div>
-<style>
-body {
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 14px;
-}
-#main {
-    max-width: 800px;
-    margin: auto;
-    text-justify: inter-character;
-    text-align: justify;
-}
-@media only screen and (max-width: 500px) {
-    #name, #photo {
-        text-align: center;
-    }
-}
-@media only screen and (min-width: 500px) {
-    #header {
-        display: flex;
-    }
-    #name {
-        padding-left: 210px;
-    }
-    #photo img {
-        margin-right: 10px;
-    }
-}
-#photo img {
-    border-radius: 50%;
-}
-.publications {
-    padding: 0;
-    list-style: none;
-    text-align: left;
-}
-.publications li {
-    margin-bottom: 1.5em;
-}
-.pdf {
-    display: inline-block;
-    width: 16px;
-    height: 16px;
-    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAwFBMVEUAAAAfHx8mJiZBQUFzc3aAgIOKio2LAQOqqqyrAgWwsLCysrKysri2tra8vLy8vMPCwsLDw8vFxcXHx8fNzc3R0dHTZWnU1NTYtrnY2NjZGh7ZUVHa2trb29vc3Nzd3d7f39/h4eHii4zjXV7k5OTlRkfldXXmAQTn5+fn7fHppqfp6enqvL7r2Nrs7OztU1Pv4uXv8PLw///y8vL19fX8Awf8/Pz+NDf/DRH/Fxv/JSj/PkD/Rkn/VFf/Z2n/eXxgoJ69AAAAAXRSTlMAQObYZgAAAMJJREFUGBkFwd1OAjEQgNFv2mn3LwqJgYiJiTyJ73/jOxgvlKiBXXSlbNvxHAEeT9XEQHbLKx5QJ95Ryv3HzWrUZzPDMrx9bnnfPSnJmxWYjsaWw17NG8BEdS+IjPLwDQCw/6o5FAHutEifnU+5dpMD6H2/QW+HVoIpgA+r1IcI16Y6AA0x6WWOTfA4gNinTtpl1NiiACGcOh/bv0PtUIBytmb5zUUvPyjA7IexlCWTZxSwdb02JUF2zgRYnw0AMDf8A5jKVJr3xyEyAAAAAElFTkSuQmCC)
-}
-.link {
-    display: inline-block;
-    width: 16px;
-    height: 16px;
-    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAMFBMVEX///9wcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHAnFTKsAAAAD3RSTlMAESIzRFVmd4iZqrvM3e5GKvWZAAAAWUlEQVQIW2NgQAZWJyA0+++5l8AM3gSG6zDJUyCCeaYCyxUQI/bMY74FQJrxJoPhWQEgQ/bADKmHIJl1AnlvDUCMqwwMAmCdjxnkAsCMvSV3ICKc7zcwYAUAjz0WbHRhn40AAAAASUVORK5CYII=)
-}
-</style>
 </body>
 </html>
